@@ -1,0 +1,1 @@
+# w7-d2-local-storage
