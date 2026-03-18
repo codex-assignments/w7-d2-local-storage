@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar to Render Pokemon & Local Storage from API</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body class="h-screen">
+
+<div class="flex flex-col justify-between h-[90%]">
+    <main class="p-4">
+        <section><h2>Search History</h2>
+        <div id="history" class="border h-[30px] w-[150px] overflow-auto"></div>
+        </section>
+        <section>
+            <h2>Search Pokemon</h2>
+            <div id="history"></div>
+            <form id="searchForm">
+                <label for="search">
+                <input class="border" type="text" name="search" id="search">      
+                </label>
+                <button class="border">Search</button>
+            </form>        
+        </section>
+        <section>
+            <output>
+                <div id="output"></div>
+            </output>
+        </section>
+    </main>
+    <footer><p>
+        Copyright Ashley Flynn &copy;
+    </p></footer>
+</div>  
+</body>
+</html>
